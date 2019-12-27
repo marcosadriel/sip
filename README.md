@@ -1,2 +1,3 @@
 # sip
-Funcionalidades para o SIP IFRO
+
+SIP-IFRO: adiciona alterações visuais ao SIP.
