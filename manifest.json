@@ -1,16 +1,17 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "SIP-IFRO",
     "short_name": "SIP-IFRO",
     "description": "SIP-IFRO: adiciona alterações visuais ao SIP.",
     "version": "1",
     "author": "Marcos Adriel",
-    "homepage_url": "https://github.com/marcosadriel/sip",
+    "homepage_url": "https://github.com/marcosadriel",
     "icons": {"128": "icons/128.png"},
     "permissions": ["storage"],
 
     "background": {
-        "scripts": ["background.js"]
+        "service_worker": "service_worker.js",
+        "type": "module"
     },
 
     "content_scripts": [
